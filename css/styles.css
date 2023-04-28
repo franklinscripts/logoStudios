@@ -1,0 +1,462 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p, span, a, button {
+  font-family: "Alata", sans-serif !important;
+}
+
+h1 {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif !important;
+}
+
+.container .navbar {
+  height: 60vh;
+  background-size: cover;
+  background-image: url("../images/mobile/image-hero.jpg");
+  /*Interactive section*/
+}
+.container .navbar .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 1em;
+  width: 360px;
+}
+.container .navbar .nav-links .links {
+  display: none;
+  position: absolute;
+  top: 0;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  text-transform: uppercase;
+}
+.container .navbar .nav-links .links .close {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2em;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.container .navbar .nav-links .links ul {
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 10em;
+}
+.container .navbar .nav-links .links ul li {
+  list-style-type: none;
+  padding-bottom: 3em;
+}
+.container .navbar .nav-links .links ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+}
+.container .navbar .nav-links .hambuger {
+  cursor: pointer;
+}
+.container .navbar .hero {
+  margin: 0 auto;
+}
+.container .navbar .hero span h1 {
+  font-size: 40px;
+  width: 360px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 5em;
+  border: 1px solid hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: hsl(0, 0%, 100%);
+}
+.container .vr-section {
+  width: 375px;
+  display: block;
+  height: 70vh;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.container .vr-section .first-img img {
+  width: 100%;
+}
+.container .vr-section .second-text {
+  width: 360px;
+  text-align: center;
+}
+.container .vr-section .second-text h1 {
+  text-transform: uppercase;
+  padding: 10px 0;
+  color: hsl(0, 0%, 0%);
+  font-size: 40px;
+  width: 380px;
+}
+.container .vr-section .second-text p {
+  color: hsl(0, 0%, 55%);
+  line-height: 2em;
+  font-weight: bold;
+  font-size: 14px;
+}
+.container .creators-section {
+  width: 360px;
+  margin: 0 auto;
+  height: 210vh;
+}
+.container .creators-section button {
+  text-transform: uppercase;
+  font-size: 17px;
+  width: 160px;
+  padding: 5px 15px;
+  margin: 0 auto;
+  background-color: inherit;
+  outline: none;
+  border: 1px solid hsl(0, 0%, 0%);
+  font-weight: 100;
+}
+.container .creators-section .btn button {
+  display: block;
+}
+.container .creators-section .top {
+  text-align: center;
+}
+.container .creators-section .top button {
+  display: none;
+}
+.container .creators-section .top h1 {
+  margin-bottom: 2rem;
+}
+.container .creators-section .botom .first-set {
+  padding-bottom: 1.5em;
+}
+.container .creators-section .botom .first-set .set-1, .container .creators-section .botom .first-set .set-2, .container .creators-section .botom .first-set .set-3, .container .creators-section .botom .first-set .set-4 {
+  margin-bottom: 2em;
+  position: relative;
+  width: 100%;
+  height: 20vh;
+}
+.container .creators-section .botom .first-set .set-1 h1, .container .creators-section .botom .first-set .set-2 h1, .container .creators-section .botom .first-set .set-3 h1, .container .creators-section .botom .first-set .set-4 h1 {
+  color: hsl(0, 0%, 100%);
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  padding-left: 0.5em;
+}
+.container .creators-section .botom .first-set .set-1 {
+  position: relative;
+  background-image: url("../images/mobile/image-deep-earth.jpg");
+}
+.container .creators-section .botom .first-set .set-2 {
+  background-image: url("../images/mobile/image-night-arcade.jpg");
+}
+.container .creators-section .botom .first-set .set-3 {
+  background-image: url("../images/mobile/image-soccer-team.jpg");
+}
+.container .creators-section .botom .first-set .set-4 {
+  background-image: url("../images/mobile/image-grid.jpg");
+}
+.container .creators-section .botom .second-set {
+  padding-bottom: 1.5em;
+}
+.container .creators-section .botom .second-set .set-1, .container .creators-section .botom .second-set .set-2, .container .creators-section .botom .second-set .set-3, .container .creators-section .botom .second-set .set-4 {
+  margin-bottom: 2em;
+  position: relative;
+  width: 100%;
+  height: 20vh;
+}
+.container .creators-section .botom .second-set .set-1 h1, .container .creators-section .botom .second-set .set-2 h1, .container .creators-section .botom .second-set .set-3 h1, .container .creators-section .botom .second-set .set-4 h1 {
+  color: hsl(0, 0%, 100%);
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  padding-left: 0.5rem;
+}
+.container .creators-section .botom .second-set .set-1 {
+  position: relative;
+  background-image: url("../images/mobile/image-from-above.jpg");
+}
+.container .creators-section .botom .second-set .set-2 {
+  background-image: url("../images/mobile/image-pocket-borealis.jpg");
+}
+.container .creators-section .botom .second-set .set-3 {
+  background-image: url("../images/mobile/image-curiosity.jpg");
+}
+.container .creators-section .botom .second-set .set-4 {
+  background-image: url("../images/mobile/image-fisheye.jpg");
+}
+.container .footer {
+  height: 50vh;
+  background-color: hsl(0, 0%, 0%);
+  margin: 0 auto;
+}
+.container .footer .container .links {
+  width: 360px;
+  margin: 0 auto;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  margin-top: 2rem;
+}
+.container .footer .container .links .logo {
+  margin: 3rem 0;
+}
+.container .footer .container .links .logo img {
+  margin-top: 3em;
+  width: 150px;
+}
+.container .footer .container .links ul {
+  list-style-type: none;
+  font-size: 15px;
+}
+.container .footer .container .links ul li {
+  margin: 2em 0;
+}
+.container .footer .container .logos {
+  width: 360px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.container .footer .container .logos p {
+  font-size: 13px;
+  padding-top: 1.5rem;
+  color: hsl(0, 0%, 55%);
+}
+.container .footer .container .logos .icons {
+  padding: 12px;
+}
+.container .footer .container .attribution {
+  margin-top: 2em;
+  color: white;
+}
+
+@media screen and (min-width: 1440px) {
+  .container .navbar {
+    background-image: url("../images/desktop/image-hero.jpg");
+  }
+  .container .navbar .nav-links {
+    width: 1440px;
+    margin: 0 auto;
+  }
+  .container .navbar .nav-links .links {
+    position: relative;
+    background-color: unset;
+    top: unset;
+    left: unset;
+    width: unset;
+    height: unset;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+  }
+  .container .navbar .nav-links .links .close {
+    display: none;
+  }
+  .container .navbar .nav-links .links ul {
+    margin: unset;
+    width: unset;
+    display: flex;
+    align-items: center;
+  }
+  .container .navbar .nav-links .links ul li {
+    list-style-type: none;
+    padding-bottom: 0;
+    padding: 0 10px;
+  }
+  .container .navbar .nav-links .links ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .container .navbar .nav-links .hambuger {
+    display: none;
+  }
+  .container .navbar .hero {
+    width: 1440px;
+  }
+  .container .navbar .hero span h1 {
+    width: 650px;
+    height: 350px;
+    font-size: 60px;
+    padding-top: 0.5em;
+    padding-left: 20px;
+    margin: unset;
+    margin-top: 10rem;
+    line-height: 1.5em;
+  }
+  .container .vr-section {
+    width: 1440px;
+    height: 80vh;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5rem;
+    position: relative;
+  }
+  .container .vr-section .first-img img {
+    width: 1020px;
+  }
+  .container .vr-section .second-text {
+    width: 700px;
+    height: 390px;
+    padding: 40px 50px;
+    text-align: left;
+    position: absolute;
+    left: 760px;
+    top: 400px;
+    box-shadow: 0px 4px 4px hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 100%);
+  }
+  .container .vr-section .second-text h1 {
+    margin-top: 2em;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: hsl(0, 0%, 0%);
+  }
+  .container .vr-section .second-text p {
+    color: hsl(0, 0%, 55%);
+    line-height: 1.9em;
+    width: 560px;
+  }
+  .container .creators-section {
+    width: 1440px;
+    margin: 0 auto;
+    height: 138vh;
+  }
+  .container .creators-section button {
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 5px 15px;
+    margin: unset;
+    background-color: inherit;
+    outline: none;
+    border: 1px solid hsl(0, 0%, 0%);
+    font-weight: 100;
+  }
+  .container .creators-section .btn button {
+    display: none;
+  }
+  .container .creators-section .top {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .container .creators-section .top button {
+    display: block;
+  }
+  .container .creators-section .top h1 {
+    margin-bottom: unset;
+  }
+  .container .creators-section .botom {
+    width: 1440px;
+    margin: 0 auto;
+  }
+  .container .creators-section .botom .first-set {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  .container .creators-section .botom .first-set .set-1, .container .creators-section .botom .first-set .set-2, .container .creators-section .botom .first-set .set-3, .container .creators-section .botom .first-set .set-4 {
+    height: 60vh;
+    background-size: cover;
+    width: 350px;
+  }
+  .container .creators-section .botom .first-set .set-1 {
+    background-image: url("../images/desktop/image-deep-earth.jpg");
+  }
+  .container .creators-section .botom .first-set .set-2 {
+    background-image: url("../images/desktop/image-night-arcade.jpg");
+  }
+  .container .creators-section .botom .first-set .set-3 {
+    background-image: url("../images/desktop/image-soccer-team.jpg");
+  }
+  .container .creators-section .botom .first-set .set-4 {
+    background-image: url("../images/desktop/image-grid.jpg");
+  }
+  .container .creators-section .botom .second-set {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  .container .creators-section .botom .second-set .set-1, .container .creators-section .botom .second-set .set-2, .container .creators-section .botom .second-set .set-3, .container .creators-section .botom .second-set .set-4 {
+    width: 350px;
+    height: 60vh;
+    background-size: cover;
+    margin-bottom: unset;
+  }
+  .container .creators-section .botom .second-set .set-1 {
+    position: relative;
+    background-image: url("../images/desktop/image-from-above.jpg");
+  }
+  .container .creators-section .botom .second-set .set-2 {
+    background-image: url("../images/desktop/image-pocket-borealis.jpg");
+  }
+  .container .creators-section .botom .second-set .set-3 {
+    background-image: url("../images/desktop/image-curiosity.jpg");
+  }
+  .container .creators-section .botom .second-set .set-4 {
+    background-image: url("../images/desktop/image-fisheye.jpg");
+  }
+  .container .footer {
+    height: 100%;
+    margin: 0 auto;
+  }
+  .container .footer .container {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container .footer .container .links {
+    margin: unset;
+    margin-top: 1.5rem;
+    display: block;
+    text-align: unset;
+    margin-top: unset;
+  }
+  .container .footer .container .links .logo {
+    margin: unset;
+  }
+  .container .footer .container .links .logo img {
+    margin-top: unset;
+    width: 150px;
+    margin-bottom: 1.5rem;
+  }
+  .container .footer .container .links ul {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .container .footer .container .links ul li {
+    margin: unset;
+    margin-top: 0.6rem;
+    font-weight: bold;
+  }
+  .container .footer .container .logos {
+    margin: unset;
+    text-align: right;
+    margin-top: 1.5rem;
+    color: white;
+  }
+  .container .footer .container .logos p {
+    font-size: 13px;
+    padding-top: 1.5rem;
+    color: hsl(0, 0%, 55%);
+  }
+  .container .footer .attribution {
+    margin-top: 2em;
+    color: white;
+  }
+}/*# sourceMappingURL=styles.css.map */
