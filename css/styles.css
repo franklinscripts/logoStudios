@@ -83,12 +83,12 @@ h1 {
 .container .vr-section {
   width: 375px;
   display: block;
-  height: 70vh;
+  height: 100%;
   margin: 0 auto;
   margin-top: 5rem;
 }
 .container .vr-section .first-img img {
-  width: 100%;
+  width: 90%;
 }
 .container .vr-section .second-text {
   width: 360px;

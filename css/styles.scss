@@ -111,13 +111,14 @@ h1{
     }
     .vr-section{
         width: 375px;
+        
         display: block;
-        height: 70vh;
+        height: 100%;
         margin: 0 auto;
         margin-top: 5rem;
         .first-img{
             img{
-                width:100% ;
+                width:90% ;
 
             }
 
