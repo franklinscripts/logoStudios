@@ -27,7 +27,7 @@ h1 {
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 1em;
-  width: 360px;
+  width: 350px;
 }
 .container .navbar .nav-links .links {
   display: none;
@@ -50,7 +50,7 @@ h1 {
   cursor: pointer;
 }
 .container .navbar .nav-links .links ul {
-  width: 360px;
+  width: 350px;
   margin: 0 auto;
   margin-top: 10em;
 }
@@ -71,7 +71,7 @@ h1 {
 }
 .container .navbar .hero span h1 {
   font-size: 40px;
-  width: 360px;
+  width: 350px;
   padding: 15px;
   margin: 0 auto;
   margin-top: 5em;
@@ -81,7 +81,7 @@ h1 {
   color: hsl(0, 0%, 100%);
 }
 .container .vr-section {
-  width: 375px;
+  width: 350px;
   display: block;
   height: 100%;
   margin: 0 auto;
@@ -95,7 +95,7 @@ h1 {
   width: 100%;
 }
 .container .vr-section .second-text {
-  width: 360px;
+  width: 350px;
   text-align: center;
 }
 .container .vr-section .second-text h1 {
@@ -103,7 +103,7 @@ h1 {
   padding: 10px 0;
   color: hsl(0, 0%, 0%);
   font-size: 40px;
-  width: 380px;
+  width: 350px;
 }
 .container .vr-section .second-text p {
   color: hsl(0, 0%, 55%);
@@ -112,7 +112,7 @@ h1 {
   font-size: 14px;
 }
 .container .creators-section {
-  width: 360px;
+  width: 350px;
   margin: 0 auto;
   height: 210vh;
 }
@@ -204,7 +204,7 @@ h1 {
   margin: 0 auto;
 }
 .container .footer .container .links {
-  width: 360px;
+  width: 350px;
   margin: 0 auto;
   color: hsl(0, 0%, 100%);
   text-align: center;
@@ -225,7 +225,7 @@ h1 {
   margin: 2em 0;
 }
 .container .footer .container .logos {
-  width: 360px;
+  width: 350px;
   margin: 0 auto;
   text-align: center;
   color: white;
